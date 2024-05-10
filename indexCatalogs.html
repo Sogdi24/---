@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexCatalog.css">
+    <link rel="stylesheet" href="./css/mediaCatalog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <title>Продукция</title>
+
+</head>
+<body>
+
+
+  <header class="header" >
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Искать">
+        <button type="submit" class="searchButton">
+          <img src="./image/search.png" alt="search" class="searchimg" />
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="header-nav">
+  <a href="#!" class="logo"> <img
+    src="./image/a.png"
+    width="400px"
+    height="150px"
+    alt="icon"
+    class="iconimage"
+/></a>
+
+  <nav id="nav" class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="index.html" class="nav-link active">Главная</a></li>
+      <ul class="menu">
+        <li class="nav-item">
+          <a href="#" >Продукция</a>
+          <ul>
+            <li><a href="indexCatalogs.html">Цветы</a></li>
+            <li>
+              <a href="indexCatalogs.html">Венки</a>
+              <ul>
+                <li><a href="indexCatalogs.html">Фоны</a></li>
+                <li><a href="indexCatalogs.html">Каркасы</a></li>
+                <li><a href="indexCatalogs.html">Комплектующие</a></li>
+              </ul>
+            </li>
+            <li><a href="indexCatalogs.html">Корзины</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- <li class="nav-item"><a href="indexCatalog.html" class="nav-link">Продукция</a></li> -->
+      <li class="nav-item"><a href="indexDostavka.html" class="nav-link">Доставка</a></li>
+      <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+     
+</ul>
+    <button id="nav-btn" class="nav-button">
+      <img class="im" id="nav-btn-img" src="./image/NAV.svg" alt="Nav button">
+    </button>
+  </nav>
+</div>
+<!-- <div class="audioplayer">
+  <audio controls autoplay="autoplay" >
+    <source src="./image/music.mp3" class="music">
+  </audio>
+</div> -->
+<!-- <div class="header-row">
+
+  <div class="header-content" data-aos="fade-up">
+    <h1 class="header-heading">Венки ритуальные оптом.<br>Ритуально-производственная компания
+        Ритуал Престиж<br></h1>
+    <p> Венки ритуальные оптом по цене от производителя. <br />У нас Вы
+        сможете купить венки ритуальные оптом, корзины и многое другое.
+        <br />Свяжитесь с нами удобным способом на странице
+        <a class="ssylka" href="#">контакты</a> или нажмите кнопку
+        <a href="#" class="ssylka">связаться</a></p>
+
+  </div>
+
+  
+</div>
+      
+    </div>
+
+  </header>
+   -->
+  <!-- <section class="services">
+    <div class="container">
+      <div class="services-row">
+      
+
+      
+      
+        <div class="category" data-aos="fade-down">
+            <img src="./image/v.png" class="imageCategory" alt="venki" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/k.png" class="imageCategory" alt="korzyni" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/kvk1.png" class="imageCategory" alt="karkasiVenkovIKorzin" />
+    </div>
+    <div class="category" data-aos="fade-down">
+      <img src="./image/fvk.png" class="imageCategory" alt="fvk" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/ic.png" class="imageCategory" alt="iskusstvennieCvety" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/kdv.png" class="imageCategory" alt="komplectuyushchieDlyaVenkov" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/o.png" class="imageCategory" alt="oborudovanie" />
+    </div>
+    <div class="category" data-aos="fade-down">
+            <img src="./image/t.png" class="imageCategory" alt="tekstil" />
+    </div>
+    
+    
+      <div class="category" data-aos="fade-down">
+              <img src="./image/pr.png" class="imageCategory" alt="prochee" />
+      </div>
+    
+      </div>
+    </div>
+  </section> -->
+
+<!-- Сетка карточек товаров -->
+<div class="cards">
+    <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     <div class="card">
+    <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+       <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+       <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+       <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+   
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+     </div>
+     <div class="card">
+      <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+        Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+     </div>
+     <div class="card">
+       <!-- Карточка товара -->
+   <div class="card">
+     <!-- Верхняя часть -->
+     <div class="card__top">
+       <!-- Изображение-ссылка товара -->
+       <a href="#" class="card__image">
+         <img
+           src="./image/flower.jpg"
+           alt=" Цветы искусственые"
+         />
+       </a>
+     </div>
+     <!-- Нижняя часть -->
+     <div class="card__bottom">
+       <!-- Цены на товар (с учетом скидки и без)-->
+       <div class="card__prices">
+         <div class="card__price card__price--discount">3 000</div>
+       </div>
+       <!-- Ссылка-название товара -->
+       <p class="card__title">
+         Цветы искусственые
+       </p>
+       <!-- Кнопка добавить в корзину -->
+       <button class="card__add">В корзину</button>
+     </div>
+   </div>
+     </div>
+   </div>
+ 
+   <footer class="contacts">
+    <div class="container">
+
+
+      <div class="content">
+        <div class="contentDiv" data-aos="fade-down">
+          <div class="divFooter" ><b>Страницы</b><a href="index.html">Главная</a><a href="indexDostavka.html">Доставка</a><a href="#">Контакты</a></div>
+          <div class="divFooter"><b>Продукция</b><a href="indexCatalogs.html">Венки</a><a href="indexCatalogs.html">Цветы</a><a href="indexCatalogs.html">Корзинки</a><a href="indexCatalogs.html">Текстиль</a></div>
+          <div class="divFooter"><b>Контакты</b><a href="#"><img class='footerImg' src="image/Phone_black.png">Звонок</a><a href="#"><img class='footerImg' src="image/WhatsApp_black.png">WhatsApp</a><a href="#"><img class='footerImg' src="image/Telegram_black.png">Telegram</a><a href="#">Адрес г.Мытищи </a></div>
+    
+        
+          <p>©2024 Ритуал-Престиж</p>
+    
+
+
+    </div>
+     
+   </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
